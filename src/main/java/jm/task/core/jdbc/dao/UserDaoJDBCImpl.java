@@ -11,6 +11,7 @@ import java.sql.SQLException;
 import java.sql.ResultSet;
 
 public class UserDaoJDBCImpl extends Util implements UserDao {
+
     private final Connection connection = getConnection();
     private static ResultSet resultSet;
 
